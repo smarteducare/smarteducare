@@ -1,0 +1,921 @@
+- 👋 Hi, I’m @smarteducare
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+smarteducare/smarteducare is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+
+
+  		
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Home Page</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+  	
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<style>
+
+body {
+
+	background: #eeeeee;
+
+	font-family: 'Varela Round', sans-serif;
+
+}
+
+.navbar {
+
+	color: #fff;
+
+	background: #926dde !important;
+
+	padding: 5px 16px;
+
+	border-radius: 0;
+
+	border: none;
+
+	box-shadow: 0 0 4px rgba(0,0,0,.1);
+
+}
+
+.navbar img {
+
+	border-radius: 50%;
+
+	width: 36px;
+
+	height: 36px;
+
+	margin-right: 10px;
+
+}
+
+.navbar .navbar-brand {
+
+	color: #efe5ff;
+
+	padding-left: 0;
+
+	padding-right: 50px;
+
+	font-size: 24px;		
+
+}
+
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+
+	color: #fff;
+
+}
+
+.navbar .navbar-brand i {
+
+	font-size: 25px;
+
+	margin-right: 5px;
+
+}
+
+.search-box {
+
+	position: relative;
+
+}	
+
+.search-box input {
+
+	padding-right: 35px;
+
+	min-height: 38px;
+
+	border: none;
+
+	background: #faf7fd;
+
+	border-radius: 3px !important;
+
+}
+
+.search-box input:focus {		
+
+	background: #fff;
+
+	box-shadow: none;
+
+}
+
+.search-box .input-group-addon {
+
+	min-width: 35px;
+
+	border: none;
+
+	background: transparent;
+
+	position: absolute;
+
+	right: 0;
+
+	z-index: 9;
+
+	padding: 10px 7px;
+
+	height: 100%;
+
+}
+
+.search-box i {
+
+	color: #a0a5b1;
+
+	font-size: 19px;
+
+}
+
+.navbar .nav-item i {
+
+	font-size: 18px;
+
+}
+
+.navbar .nav-item span {
+
+	position: relative;
+
+	top: 3px;
+
+}
+
+.navbar .navbar-nav > a {
+
+	color: #efe5ff;
+
+	padding: 8px 15px;
+
+	font-size: 14px;		
+
+}
+
+.navbar .navbar-nav > a:hover, .navbar .navbar-nav > a:focus {
+
+	color: #fff;
+
+	text-shadow: 0 0 4px rgba(255,255,255,0.3);
+
+}
+
+.navbar .navbar-nav > a > i {
+
+	display: block;
+
+	text-align: center;
+
+}
+
+.navbar .dropdown-item i {
+
+	font-size: 16px;
+
+	min-width: 22px;
+
+}
+
+.navbar .dropdown-item .material-icons {
+
+	font-size: 21px;
+
+	line-height: 16px;
+
+	vertical-align: middle;
+
+	margin-top: -2px;
+
+}
+
+.navbar .nav-item.open > a, .navbar .nav-item.open > a:hover, .navbar .nav-item.open > a:focus {
+
+	color: #fff;
+
+	background: none !important;
+
+}
+
+.navbar .dropdown-menu {
+
+	border-radius: 1px;
+
+	border-color: #e5e5e5;
+
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+
+}
+
+.navbar .dropdown-menu a {
+
+	color: #777 !important;
+
+	padding: 8px 20px;
+
+	line-height: normal;
+
+	font-size: 15px;
+
+}
+
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:focus {
+
+	color: #333 !important;
+
+	background: transparent !important;
+
+}
+
+.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:hover, .navbar .navbar-nav .active a:focus {
+
+	color: #fff;
+
+	text-shadow: 0 0 4px rgba(255,255,255,0.2);
+
+	background: transparent !important;
+
+}
+
+.navbar .navbar-nav .user-action {
+
+	padding: 9px 15px;
+
+	font-size: 15px;
+
+}
+
+.navbar .navbar-toggle {
+
+	border-color: #fff;
+
+}
+
+.navbar .navbar-toggle .icon-bar {
+
+	background: #fff;
+
+}
+
+.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
+
+	background: transparent;
+
+}
+
+.navbar .navbar-nav .open .dropdown-menu {
+
+	background: #faf7fd;
+
+	border-radius: 1px;
+
+	border-color: #faf7fd;
+
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+
+}
+
+.navbar .divider {
+
+	background-color: #e9ecef !important;
+
+}
+
+@media (min-width: 1200px){
+
+	.form-inline .input-group {
+
+		width: 350px;
+
+		margin-left: 30px;
+
+	}
+
+}
+
+@media (max-width: 1199px){
+
+	.navbar .navbar-nav > a > i {
+
+		display: inline-block;			
+
+		text-align: left;
+
+		min-width: 30px;
+
+		position: relative;
+
+		top: 4px;
+
+	}
+
+	.navbar .navbar-collapse {
+
+		border: none;
+
+		box-shadow: none;
+
+		padding: 0;
+
+	}
+
+	.navbar .navbar-form {
+
+		border: none;			
+
+		display: block;
+
+		margin: 10px 0;
+
+		padding: 0;
+
+	}
+
+	.navbar .navbar-nav {
+
+		margin: 8px 0;
+
+	}
+
+	.navbar .navbar-toggle {
+
+		margin-right: 0;
+
+	}
+
+	.input-group {
+
+		width: 100%;
+
+	}
+
+}
+
+</style>
+
+</head> 
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+
+	<a href="#" class="navbar-brand"><i class="fa fa-cube"></i>SMART<b>BUDDY</b></a>  		
+
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+
+		<span class="navbar-toggler-icon"></span>
+
+	</button>
+
+	<!-- Collection of nav links, forms, and other content for toggling -->
+
+	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">		
+
+		<form class="navbar-form form-inline">
+
+			<div class="input-group search-box">								
+
+				<input type="text" id="search" class="form-control" placeholder="Search here...">
+
+				<span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
+
+			</div>
+
+		</form>
+
+		<div class="navbar-nav ml-auto">
+
+			<a href="#" class="nav-item nav-link active"><i class="fa fa-home"></i><span>Home</span></a>
+
+			<a href="https://www.punjabeducare.org/students-corner-sec" class="nav-item nav-link"><i class="fa fa-user"></i><span>Student Corner</span></a>
+
+			<a href="https://www.punjabeducare.org/pseb-syllabus" class="nav-item nav-link"><i class="fa fa-edit"></i><span>SALLYBUS</span></a>
+
+			<a href="https://www.punjabeducare.org/main-8th-class" class="nav-item nav-link"><i class="fa fa-gears"></i><span>SOLUTIONS</span></a>
+
+			<a href="http://www.pseb.ac.in/reduced-syllabus-2020-21.html" class="nav-item nav-link"><i class="fa fa-pie-chart"></i><span>BOOKS</span></a>
+
+			<a href="https://www.punjabeducare.org/daily-slide-sec" class="nav-item nav-link"><i class="fa fa-envelope"></i><span>ASSIGNMENT</span></a>		
+
+			<a href="https://surveyheart.com/form/60f411f1f4b8855b80295483" class="nav-item nav-link"><i class="fa fa-users"></i><span>ATTENDANCE REGISTRATION</span></a>
+
+			
+
+<!-- BEGIN: Powered by Supercounters.com -->
+
+<center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script><script type="text/javascript">sc_online_i(1614958,"#99888","e61c1c");</script><br><noscript><a href="https://www.supercounters.com/">free online counter</a></noscript>
+
+</center>
+
+<!-- END: Powered by Supercounters.com -->
+
+<!-- BEGIN: Powered by Supercounters.com -->
+
+<center><script type="text/javascript" src="//widget.supercounters.com/ssl/hit.js"></script><script type="text/javascript">sc_hit(1614959,142,5);</script><br><noscript><a href="http://www.supercounters.com/">free online counter</a></noscript>
+
+</center>
+
+<!-- END: Powered by Supercounters.com -->
+
+			
+
+				
+
+			</div>
+
+		</div>
+
+	</div>
+
+</nav>
+
+<div style="text-align:right;position:fixed;bottom:3px;right:3px;width:100%;z-index:999999;cursor:pointer;line-height:0;display:block;"><a target="_blank" href="https://www.freewebhostingarea.com" title="Free Web Hosting with PHP5 or PHP7"><img alt="Free Web Hosting" src="https://www.freewebhostingarea.com/images/poweredby.png" style="border-width: 0px;width: 180px; height: 45px; float: right;"></a></div>
+
+</body>
+
+</html>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+<div class="ctn">
+
+<a href="https://surveyheart.com/form/60f411f1f4b8855b80295483" class="button2 b-pink rot-135">ATTENDANCE REGISTRATION</a>
+
+<a href="#" class="button2 b-green">CLASS 8TH ALL NOTES CLICK HERE </a>
+
+<a href="https://www.punjabeducare.org/students-corner-sec" class="button2 b-pink rot-135">STUDENT CORNER</a>
+
+<a href="https://www.punjabeducare.org/pseb-syllabus" class="button2 b-red rot-135">SALLYBUS</a>
+
+<a href="https://www.punjabeducare.org/main-8th-class" class="button2 b-orange">CHAPTER SOLUTIONS</a>
+
+<a href="http://www.pseb.ac.in/reduced-syllabus-2020-21.html" class="button2 b-blue">BOOKS</a>
+
+<br/>
+
+<a href="https://www.punjabeducare.org/daily-slide-sec" class="button2 b-green rot-135">ASSIGNMENT</a>
+
+<a href="http://smartbuddygroup8tha.freetzi.com/Attendance%20data%20show" class="button2 b-pink rot-135">ATTENDANCE ENTRY</a>
+
+<a href="#" class="button2 b-red rot-135">E-BOOKS</a>
+
+<a href="#" class="button2 b-orange rot-135">PAPER DATE SHEET</a>
+
+</div>
+
+�&#65039; POWERED BY -BUDDY GROUP 8TH A TEAM
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+  	
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+	$(document).ready(function(){
+
+		$("#myModal").modal('show');
+
+	});
+
+</script>
+
+</head>
+
+<body>
+
+<div class="m-4">
+
+    <div id="myModal" class="modal fade" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Smart Buddy Group 8th A</h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <p>&#2596;&#2625;&#2617;&#2622;&#2593;&#2622; Smart Buddy Group &#2598;&#2624; &#2613;&#2632;&#2673;&#2604;&#2616;&#2622;&#2568;&#2591; &#2613;&#2623;&#2673;&#2586; &#2616;&#2613;&#2622;&#2583;&#2596; &#2617;&#2632;&#2404; &#2567;&#2617; &#2613;&#2632;&#2604;&#2622;&#2568;&#2591; Buddy leader &#2598;&#2625;&#2566;&#2608;&#2622; &#2604;&#2672;&#2600;&#2637;&#2617;&#2623;&#2566; &#2583;&#2623;&#2566; &#2617;&#2632;&#2404;</p>
+
+                    <p class="text-secondary"><small>&#2596;&#2623;&#2566;&#2608; &#2581;&#2608;&#2596;&#2622; - &#2598;&#2624;&#2602;&#2581;&#2404; </small></p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">&#2592;&#2624;&#2581; &#2617;&#2632; </button>
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
+
+<style>
+
+/* BY ESTEBAN MAUVAIS
+
+[--=INDEX=--]
+
+/BODY
+
+/GRADIENTS
+
+  /GREEN
+
+  /PINK
+
+  /RED
+
+  /ORANGE
+
+  /BLUE
+
+/BASE BUTTON
+
+/ROTATE
+
+[--=END INDEX=--]
+
+*/
+
+/*BODY*/
+
+body {
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body, .button:after {
+
+  background: white ;
+
+}
+
+.ctn {
+
+  display: block;
+
+  margin: auto;
+
+  text-align: center;
+
+}
+
+footer {
+
+  position: fixed;
+
+  bottom: 5px;
+
+  right: 5px;
+
+  color: #FFF;
+
+}
+
+footer a, footer a:after {
+
+  font-size: 1em !important;
+
+}
+
+/*END BODY*/
+
+/*GRADIENTS*/
+
+  /*GREEN*/
+
+  .b-green, .b-green:before {
+
+    background: rgba(73,155,234,1);
+
+    background: -moz-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(26,188,156,1)));
+
+    background: -webkit-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+
+    background: -o-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+
+    background: -ms-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+
+    background: linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#1abc9c', GradientType=1 );
+
+  }
+
+  /*PINK*/
+
+  .b-pink, .b-pink:before {
+
+    background: rgba(231,72,234,1);
+
+    background: -moz-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(231,72,234,1)), color-stop(100%, rgba(75,26,188,1)));
+
+    background: -webkit-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+
+    background: -o-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+
+    background: -ms-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+
+    background: linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e748ea', endColorstr='#4b1abc', GradientType=1 );
+
+  }
+
+  /*RED*/
+
+  .b-red, .b-red:before {
+
+    background: rgba(234,110,72,1);
+
+    background: -moz-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(234,110,72,1)), color-stop(100%, rgba(188,26,99,1)));
+
+    background: -webkit-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+
+    background: -o-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+
+    background: -ms-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+
+    background: linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6e48', endColorstr='#bc1a63', GradientType=1 );
+
+  }
+
+  /*ORANGE*/
+
+  .b-orange, .b-orange:before {
+
+    background: rgba(255,193,7,1);
+
+    background: -moz-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,193,7,1)), color-stop(100%, rgba(255,87,34,1)));
+
+    background: -webkit-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+
+    background: -o-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+
+    background: -ms-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+
+    background: linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc107', endColorstr='#ff5722', GradientType=1 );
+
+  }
+
+  /*BLUE*/
+
+  .b-blue, .b-blue:before {
+
+    background: rgba(5,118,255,1);
+
+    background: -moz-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(5,118,255,1)), color-stop(100%, rgba(36,248,255,1)));
+
+    background: -webkit-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+
+    background: -o-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+
+    background: -ms-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+
+    background: linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0576ff', endColorstr='#24f8ff', GradientType=1 );
+
+  }
+
+/*END GRADIENTS*/
+
+/*BASE BUTTON*/
+
+.button {
+
+  display: inline-block;
+
+  position: relative;
+
+  border-radius: 3px;
+
+  text-decoration: none;
+
+  padding: .5em;
+
+  margin: .5em;
+
+  font-size: 2em;
+
+  font-weight: bold;
+
+  transition: all .5s;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+.button:hover {
+
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, .75);
+
+}
+
+.button:hover:after {
+
+  left: 100%;
+
+  top: 100%;
+
+  bottom: 100%;
+
+  right: 100%;
+
+}
+
+.button:before {
+
+  content: '';
+
+  display: block;
+
+  position: absolute;
+
+  left: 0;
+
+  top: 0;
+
+  bottom: 0;
+
+  right: 0;
+
+  z-index: -1;
+
+  border-radius: 5px;
+
+  transition: all .5s;
+
+}
+
+.button:after {
+
+  content: '';
+
+  display: block;
+
+  position: absolute;
+
+  left: 2px;
+
+  top: 2px;
+
+  bottom: 2px;
+
+  right: 2px;
+
+  z-index: -1;
+
+  border-radius: 5px;
+
+  transition: all .5s;
+
+}
+
+.button2 {
+
+  display: inline-block;
+
+  font-size: 2em;
+
+  margin: .5em;
+
+  padding: .4em;
+
+  border-radius: 40px;
+
+  transition: all .5s;
+
+  filter: hue-rotate(0deg);
+
+  color: #FFF;
+
+  text-decoration: none;
+
+}
+
+/*END BASE BUTTON*/
+
+/*ROTATE*/
+
+.rot-360-noscoop:hover {
+
+  filter: hue-rotate(360deg);
+
+  transform: rotate(360deg);
+
+}
+
+.rot-135:hover {
+
+  filter: hue-rotate(135deg);
+
+}
+
+.rot-90:hover {
+
+  filter: hue-rotate(135deg);
+
+}
+
+/*END ROTATE*/
